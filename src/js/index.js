@@ -9,6 +9,7 @@ btn.addEventListener("click", function(){
             input.classList.add("borda-vazia");
             mensagens[index].classList.add("ativa");
         } else if(input.value !== "") {
+            mensagens[index].classList.remove("ativa");
             input.classList.add("borda-completa");
         }
     })

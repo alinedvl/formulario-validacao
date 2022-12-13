@@ -1,0 +1,48 @@
+
+@media(max-width: 576px){
+    body{
+        height: 100%;
+    }
+
+    .informacao{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .informacao .texto{
+        padding: 85px;
+    }
+
+    .informacao .form{
+        margin-bottom: 25px;
+    }
+}
+
+
+@media(max-width: 435px){
+    body{
+        height: 100%;
+    }
+    
+    .informacao{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .informacao .texto{
+        padding: 50px;
+    }
+
+    .informacao .form{
+        height: 375px;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+
+    
+    .informacao .form .campos-form{
+        width: 255px;
+    }
+}
